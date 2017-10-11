@@ -49,6 +49,15 @@ Our client has asked us to design a Wikipedia type application for Star Wars sit
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+### Quickstart
+
+1.  `bundle install`
+2.  `bundle exec rake db:create`
+3.  `bundle exec rake db:migrate`
+4.  `bundle exec rake db:seed`
+5.  `bundle exec shotgun config.ru`
+6.  Open [http://localhost:9393](http://localhost:9393)
+
 Things you may want to cover:
 
 * Ruby version
@@ -59,5 +68,3 @@ Things you may want to cover:
 * How to run the test suite
 * Services (job queues, cache servers, search engines, etc.)
 * Deployment instructions
-
-* ...
